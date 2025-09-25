@@ -1,4 +1,4 @@
-module cvimodelgo
+module github.com/aisa-it/cvimodelgo
 
 go 1.25.1
 

@@ -1,12 +1,13 @@
 package cvimodelgo
 
 import (
-	"cvimodelgo/model"
 	"encoding/binary"
 	"errors"
 	"io"
 	"strings"
 	"time"
+
+	"github.com/aisa-it/cvimodelgo/model"
 )
 
 var (
