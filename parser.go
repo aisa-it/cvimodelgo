@@ -25,12 +25,12 @@ type ModelHeader struct {
 }
 
 type ModelInfo struct {
-	Name        string
-	Target      string
-	BuildTime   time.Time
-	InputQuant  string
-	OutputQuant string
-	Quant       string
+	Name        string    `json:"name"`
+	Target      string    `json:"target"`
+	BuildTime   time.Time `json:"build_time"`
+	InputQuant  string    `json:"input_quant"`
+	OutputQuant string    `json:"output_quant"`
+	Quant       string    `json:"quant"`
 }
 
 func ParseModelFile(r io.Reader) (*ModelInfo, error) {
